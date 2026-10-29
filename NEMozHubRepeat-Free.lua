@@ -863,7 +863,7 @@ end
 -- =================================================================
 
 -- TextBox nhập tên mục tiêu (Hỗ trợ tìm kiếm thông minh)
-Tab4:CreateTextBox("Target Name", "exa ac = acb3 ", function(text, enterPressed)
+Tab4:CreateTextBox("Target Name", "Name Matching", function(text, enterPressed)
     typedTargetName = text
     selectedTrollTarget = findPlayerByName(text)
 end)
