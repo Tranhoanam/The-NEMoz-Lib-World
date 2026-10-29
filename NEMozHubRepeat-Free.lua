@@ -4,8 +4,8 @@ local Window = Library:CreateWindow({
     Name = "NEMoz Hub Repeat"
 })
 
-local Tab = Window:CreateTab("Conbo", "124620632231839")
-local Tab2 = Window:CreateTab("Screen", "139650104834071")
+local Tab = Window:CreateTab("Loop", "124620632231839")
+local Tab2 = Window:CreateTab("Auto click", "139650104834071")
 local Tab3 = Window:CreateTab("Camera", "117259180607823")
 local Tab4 = Window:CreateTab("Troll", "111033757146676")
 local Tab5 = Window:CreateTab("Information", "99559214342519")
