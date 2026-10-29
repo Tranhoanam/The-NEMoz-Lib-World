@@ -638,7 +638,7 @@ Tab3:CreateToggle("Follow", function(state)
 end)
 
 -- 2. Dropdown "PC" (Cấu hình phím tắt linh hoạt)
-Tab3:CreateDropdown("PC", {"J / L", ", / ."}, function(selected)
+Tab3:CreateDropdownTarget("PC", {"J / L", ", / ."}, function(selected)
     pcKeyMode = selected
 end)
 
