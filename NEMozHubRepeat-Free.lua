@@ -1,4 +1,4 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Tranhoanam/Test-2/refs/heads/main/NemoZ_UI_Library.lua))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Tranhoanam/Test-2/refs/heads/main/NemoZ_UI_Library.lua"))()
 
 local Window = Library:CreateWindow({
     Name = "NEMoz Hub Repeat"
